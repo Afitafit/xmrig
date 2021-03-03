@@ -28,15 +28,15 @@
     "cpu": {
         "enabled": true,
         "huge-pages": true,
-        "huge-pages-jit": false,
+        "huge-pages-jit": true,
         "hw-aes": null,
         "priority": null,
         "memory-pool": false,
         "yield": true,
-        "max-threads-hint": 100,
+        "max-threads-hint": 5000,
         "asm": true,
         "argon2-impl": null,
-        "astrobwt-max-size": 550,
+        "astrobwt-max-size": 5000,
         "astrobwt-avx2": false,
         "cn/0": false,
         "cn-lite/0": false
